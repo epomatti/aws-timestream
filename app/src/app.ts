@@ -5,9 +5,7 @@ import {
 
 (async () => {
 
-  const configuration: TimestreamWriteClientConfig = {
-
-  }
+  const configuration: TimestreamWriteClientConfig = { region: "us-east-1" }
 
   const writeClient = new TimestreamWriteClient(configuration);
 
