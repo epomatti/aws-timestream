@@ -1,6 +1,10 @@
 {
   "name": "app",
   "packageManager": "yarn@3.2.2",
+  "scripts": {
+    "build": "tsc",
+    "app": "npx ts-node --esm src/app.ts"
+  },
   "dependencies": {
     "@aws-sdk/client-timestream-write": "^3.142.0",
     "dotenv": "^16.0.1"
