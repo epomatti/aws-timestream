@@ -1,0 +1,7 @@
+{
+  "name": "app",
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
